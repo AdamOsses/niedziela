@@ -19,6 +19,7 @@ class RejestracjaNowegoUzytkownika(unittest.TestCase):
     def setUp(self):
         #  WARUNKI WSTEPNE
         # 1. Otwarcie strony glownej
+        #--- REPO: main - nowa zmiana
         self.driver = webdriver.Firefox()# MAIN
         self.driver = webdriver.Firefox()# Obsluga-firefoxa
         self.driver = webdriver.Chrome() # obsluga-chrome
