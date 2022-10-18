@@ -23,6 +23,7 @@ class RejestracjaNowegoUzytkownika(unittest.TestCase):
         self.driver = webdriver.Firefox()# MAIN
         self.driver = webdriver.Firefox()# Obsluga-firefoxa
         self.driver = webdriver.Chrome() # obsluga-chrome
+        self.driver = webdriver.Edge() # obsluga-edge
         #self.driver = webdriver.Remote(command_executor='http://127.0.0.1:4444/wd/hub', desired_capabilities=DesiredCapabilities.EDGE)
         self.driver.maximize_window()
         self.driver.get('https://eobuwie.com.pl')
