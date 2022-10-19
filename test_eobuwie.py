@@ -19,7 +19,8 @@ class RejestracjaNowegoUzytkownika(unittest.TestCase):
     def setUp(self):
         #  WARUNKI WSTEPNE
         # 1. Otwarcie strony glownej
-        self.driver = webdriver.Chrome() # obsluga-chrome
+        self.driver = webdriver.Firefox()# Obsluga-firefoxa
+        #self.driver = webdriver.Chrome() # obsluga-chrome
         #self.driver = webdriver.Edge() # obsluga-edge
         #self.driver = webdriver.Remote(command_executor='http://127.0.0.1:4444/wd/hub', desired_capabilities=DesiredCapabilities.EDGE)
         self.driver.maximize_window()
